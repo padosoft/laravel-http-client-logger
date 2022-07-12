@@ -14,7 +14,7 @@ class HttpLogger implements HttpLoggerInterface
 {
     protected PsrMessageToStringConverter $psrMessageStringConverter;
 
-    protected RequestInterface $request;
+    public RequestInterface $request;
     protected ResponseInterface $response;
     protected float $sec;
     protected array $context;

@@ -42,7 +42,7 @@ class LoggingMiddleware
                         if ($this->filter->shouldLog($request, $response, $sec, $context, $config)) {
                             $this->logger->log($request, $response, $sec, $context, $config);
                         }
-
+                        $response->httpRequest = $this->logger->request;
                         return $response;
                     }
                 );
