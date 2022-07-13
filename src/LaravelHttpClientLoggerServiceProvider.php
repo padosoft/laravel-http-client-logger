@@ -1,8 +1,8 @@
 <?php
 
-namespace Bilfeldt\LaravelHttpClientLogger;
+namespace Padosoft\LaravelHttpClientLogger;
 
-use Bilfeldt\LaravelHttpClientLogger\Middleware\LoggingMiddleware;
+use Padosoft\LaravelHttpClientLogger\Middleware\LoggingMiddleware;
 use Illuminate\Http\Client\PendingRequest;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bilfeldt\LaravelHttpClientLogger;
+namespace Padosoft\LaravelHttpClientLogger;
 
 use GuzzleHttp\Psr7\Utils;
 use Illuminate\Support\Arr;

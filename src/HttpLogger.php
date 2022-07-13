@@ -1,6 +1,6 @@
 <?php
 
-namespace Bilfeldt\LaravelHttpClientLogger;
+namespace Padosoft\LaravelHttpClientLogger;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Date;
@@ -15,7 +15,7 @@ class HttpLogger implements HttpLoggerInterface
     protected PsrMessageToStringConverter $psrMessageStringConverter;
 
     public RequestInterface $request;
-    protected ResponseInterface $response;
+    public ResponseInterface $response;
     protected float $sec;
     protected array $context;
     protected array $config;
@@ -60,7 +60,7 @@ class HttpLogger implements HttpLoggerInterface
             .Arr::get($this->config, 'filename');
     }
 
-    protected function getMessage(): string
+    public function getMessage(): string
     {
         return "Time {$this->sec}sec\r\n"
             ."Request\r\n"

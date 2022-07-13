@@ -1,6 +1,6 @@
 # :open_file_folder: A logger for the Laravel HTTP Client
 
-![bilfeldt/laravel-http-client-logger](cover.jpg)
+![padosoft/laravel-http-client-logger](cover.jpg)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/bilfeldt/laravel-http-client-logger)](https://packagist.org/packages/bilfeldt/laravel-http-client-logger)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/bilfeldt/laravel-http-client-logger/run-tests?label=tests)](https://github.com/bilfeldt/laravel-http-client-logger/actions?query=workflow%3ATests+branch%3Amaster)
@@ -32,7 +32,7 @@ If you use Lumen register the service provider in `bootstrap/app.php` like so:
 <?php
 // bootstrap/app.php
 
-$app->register(Bilfeldt\LaravelHttpClientLogger\LaravelHttpClientLoggerServiceProvider::class);
+$app->register(Padosoft\LaravelHttpClientLogger\LaravelHttpClientLoggerServiceProvider::class);
 
 // If you want to use the Facades provided by the package
 $app->withFacades();
@@ -42,7 +42,7 @@ $app->withFacades();
 
 Optionally in Laravel publish the config file with:
 ```bash
-php artisan vendor:publish --provider="Bilfeldt\LaravelHttpClientLogger\LaravelHttpClientLoggerServiceProvider" --tag="laravel-http-client-logger-config"
+php artisan vendor:publish --provider="Padosoft\LaravelHttpClientLogger\LaravelHttpClientLoggerServiceProvider" --tag="laravel-http-client-logger-config"
 ```
 
 ## Usage
@@ -111,7 +111,7 @@ Http::log()->get('https://repo.packagist.org/p2/bilfeldt/laravel-http-client-log
 //Connection: keep-alive
 //Vary: Accept-Encoding
 //
-//{"packages":{"bilfeldt/laravel-http-client-logger":[{"name":"bilfeldt/laravel-http-client-logger","description":"A logger for the Laravel HTTP Client","keywords":["bilfeldt","laravel-http-client-logger"],"homepage":"https://github.com/bilfeldt/laravel-http-client-logger","version":"v0.2.0","version_normalized":"0.2.0.0","license":["MIT"],"authors":[{"name":"Anders Bilfeldt","email":"abilfeldt@gmail.com","role":"Developer"}],"source":{"type":"git","url":"https://github.com/bilfeldt/laravel-http-client-logger.git","reference":"67ea252a3d3d0c9c0e1c7daa11a3683db818ad5e"},"dist":{"type":"zip","url":"https://api.github.com/repos/bilfeldt/laravel-http-client-logger/zipball/67ea252a3d3d0c9c0e1c7daa11a3683db818ad5e","reference":"67ea252a3d3d0c9c0e1c7daa11a3683db818ad5e","shasum":""},"type":"library","time":"2021-02-17T14:28:45+00:00","autoload":{"psr-4":{"Bilfeldt\\LaravelHttpClientLogger\\":"src"}},"extra":{"laravel":{"providers":["Bilfeldt\\LaravelHttpClientLogger\\LaravelHttpClientLoggerServiceProvider"]}},"require":{"php":"^7.4|^8.0","guzzlehttp/guzzle":"^7.2","illuminate/http":"^8.0","illuminate/support":"^8.0","spatie/laravel-package-tools":"^1.1"},"require-dev":{"orchestra/testbench":"^6.0","phpunit/phpunit":"^9.3","spatie/laravel-ray":"^1.12","timacdonald/log-fake":"^1.9","vimeo/psalm":"^4.4"},"support":{"issues":"https://github.com/bilfeldt/laravel-http-client-logger/issues","source":"https://github.com/bilfeldt/laravel-http-client-logger/tree/v0.2.0"}},{"version":"0.1.0","version_normalized":"0.1.0.0","source":{"type":"git","url":"https://github.com/bilfeldt/laravel-http-client-logger.git","reference":"6bb8c8ada3959643103a75aa4e639c8dddddf2df"},"dist":{"type":"zip","url":"https://api.github.com/repos/bilfeldt/laravel-http-client-logger/zipball/6bb8c8ada3959643103a75aa4e639c8dddddf2df","reference":"6bb8c8ada3959643103a75aa4e639c8dddddf2df","shasum":""},"time":"2021-02-15T22:39:05+00:00","support":{"issues":"https://github.com/bilfeldt/laravel-http-client-logger/issues","source":"https://github.com/bilfeldt/laravel-http-client-logger/tree/0.1.0"}}]},"minified":"composer/2.0"}  
+//{"packages":{"bilfeldt/laravel-http-client-logger":[{"name":"bilfeldt/laravel-http-client-logger","description":"A logger for the Laravel HTTP Client","keywords":["bilfeldt","laravel-http-client-logger"],"homepage":"https://github.com/bilfeldt/laravel-http-client-logger","version":"v0.2.0","version_normalized":"0.2.0.0","license":["MIT"],"authors":[{"name":"Anders Bilfeldt","email":"abilfeldt@gmail.com","role":"Developer"}],"source":{"type":"git","url":"https://github.com/bilfeldt/laravel-http-client-logger.git","reference":"67ea252a3d3d0c9c0e1c7daa11a3683db818ad5e"},"dist":{"type":"zip","url":"https://api.github.com/repos/bilfeldt/laravel-http-client-logger/zipball/67ea252a3d3d0c9c0e1c7daa11a3683db818ad5e","reference":"67ea252a3d3d0c9c0e1c7daa11a3683db818ad5e","shasum":""},"type":"library","time":"2021-02-17T14:28:45+00:00","autoload":{"psr-4":{"Padosoft\\LaravelHttpClientLogger\\":"src"}},"extra":{"laravel":{"providers":["Padosoft\\LaravelHttpClientLogger\\LaravelHttpClientLoggerServiceProvider"]}},"require":{"php":"^7.4|^8.0","guzzlehttp/guzzle":"^7.2","illuminate/http":"^8.0","illuminate/support":"^8.0","spatie/laravel-package-tools":"^1.1"},"require-dev":{"orchestra/testbench":"^6.0","phpunit/phpunit":"^9.3","spatie/laravel-ray":"^1.12","timacdonald/log-fake":"^1.9","vimeo/psalm":"^4.4"},"support":{"issues":"https://github.com/bilfeldt/laravel-http-client-logger/issues","source":"https://github.com/bilfeldt/laravel-http-client-logger/tree/v0.2.0"}},{"version":"0.1.0","version_normalized":"0.1.0.0","source":{"type":"git","url":"https://github.com/bilfeldt/laravel-http-client-logger.git","reference":"6bb8c8ada3959643103a75aa4e639c8dddddf2df"},"dist":{"type":"zip","url":"https://api.github.com/repos/bilfeldt/laravel-http-client-logger/zipball/6bb8c8ada3959643103a75aa4e639c8dddddf2df","reference":"6bb8c8ada3959643103a75aa4e639c8dddddf2df","shasum":""},"time":"2021-02-15T22:39:05+00:00","support":{"issues":"https://github.com/bilfeldt/laravel-http-client-logger/issues","source":"https://github.com/bilfeldt/laravel-http-client-logger/tree/0.1.0"}}]},"minified":"composer/2.0"}  
 
 ```
 

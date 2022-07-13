@@ -11,7 +11,7 @@ return [
     | but remember that it must implement the HttpLoggingFilterInterface.
     |
     */
-    'filter' => \Bilfeldt\LaravelHttpClientLogger\HttpLoggingFilter::class,
+    'filter' => \Padosoft\LaravelHttpClientLogger\HttpLoggingFilter::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ return [
     | but remember that it must implement the HttpLoggerInterface.
     |
     */
-    'logger' => \Bilfeldt\LaravelHttpClientLogger\HttpLogger::class,
+    'logger' => \Padosoft\LaravelHttpClientLogger\HttpLogger::class,
 
     /*
     |--------------------------------------------------------------------------

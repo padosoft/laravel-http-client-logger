@@ -1,8 +1,8 @@
 <?php
 
-namespace Bilfeldt\LaravelHttpClientLogger\Tests;
+namespace Padosoft\LaravelHttpClientLogger\Tests;
 
-use Bilfeldt\LaravelHttpClientLogger\MessageAccessor;
+use Padosoft\LaravelHttpClientLogger\MessageAccessor;
 use GuzzleHttp\Psr7\Message;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Bilfeldt\LaravelHttpClientLogger\Tests;
+namespace Padosoft\LaravelHttpClientLogger\Tests;
 
-use Bilfeldt\LaravelHttpClientLogger\HttpLoggingFilter;
+use Padosoft\LaravelHttpClientLogger\HttpLoggingFilter;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 

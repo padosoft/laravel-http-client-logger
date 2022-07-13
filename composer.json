@@ -1,5 +1,5 @@
 {
-    "name": "bilfeldt/laravel-http-client-logger",
+    "name": "padosoft/laravel-http-client-logger",
     "description": "A logger for the Laravel HTTP Client",
     "keywords": [
         "bilfeldt",
@@ -10,12 +10,13 @@
         "logging",
         "psr3"
     ],
-    "homepage": "https://github.com/bilfeldt/laravel-http-client-logger",
+    "homepage": "https://github.com/padosoft/laravel-http-client-logger",
     "license": "MIT",
     "authors": [
         {
-            "name": "Anders Bilfeldt",
-            "email": "abilfeldt@gmail.com",
+            "name": "Padosoft",
+            "email": "helpdesk@padosoft.com",
+            "homepage": "https://www.padosoft.com",
             "role": "Developer"
         }
     ],
@@ -36,17 +37,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Bilfeldt\\LaravelHttpClientLogger\\": "src"
+            "Padosoft\\LaravelHttpClientLogger\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bilfeldt\\LaravelHttpClientLogger\\Tests\\": "tests"
+            "Padosoft\\LaravelHttpClientLogger\\Tests\\": "tests"
         }
     },
     "repositories": [
         {
-            "type": "vcs",
+            "type": "git",
             "url": "https://github.com/bilfeldt/log-fake.git"
         }
     ],
@@ -61,7 +62,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bilfeldt\\LaravelHttpClientLogger\\LaravelHttpClientLoggerServiceProvider"
+                "Padosoft\\LaravelHttpClientLogger\\LaravelHttpClientLoggerServiceProvider"
             ]
         }
     },

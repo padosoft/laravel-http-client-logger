@@ -1,9 +1,9 @@
 <?php
 
-namespace Bilfeldt\LaravelHttpClientLogger\Middleware;
+namespace Padosoft\LaravelHttpClientLogger\Middleware;
 
-use Bilfeldt\LaravelHttpClientLogger\HttpLoggerInterface;
-use Bilfeldt\LaravelHttpClientLogger\HttpLoggingFilterInterface;
+use Padosoft\LaravelHttpClientLogger\HttpLoggerInterface;
+use Padosoft\LaravelHttpClientLogger\HttpLoggingFilterInterface;
 use GuzzleHttp\Promise\PromiseInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

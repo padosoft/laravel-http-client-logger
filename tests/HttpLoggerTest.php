@@ -1,9 +1,9 @@
 <?php
 
-namespace Bilfeldt\LaravelHttpClientLogger\Tests;
+namespace Padosoft\LaravelHttpClientLogger\Tests;
 
-use Bilfeldt\LaravelHttpClientLogger\HttpLogger;
-use Bilfeldt\LaravelHttpClientLogger\PsrMessageToStringConverter;
+use Padosoft\LaravelHttpClientLogger\HttpLogger;
+use Padosoft\LaravelHttpClientLogger\PsrMessageToStringConverter;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use Illuminate\Support\Facades\Log;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Bilfeldt\LaravelHttpClientLogger\Tests;
+namespace Padosoft\LaravelHttpClientLogger\Tests;
 
-use Bilfeldt\LaravelHttpClientLogger\HttpLoggerInterface;
-use Bilfeldt\LaravelHttpClientLogger\HttpLoggingFilterInterface;
-use Bilfeldt\LaravelHttpClientLogger\Middleware\LoggingMiddleware;
+use Padosoft\LaravelHttpClientLogger\HttpLoggerInterface;
+use Padosoft\LaravelHttpClientLogger\HttpLoggingFilterInterface;
+use Padosoft\LaravelHttpClientLogger\Middleware\LoggingMiddleware;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;

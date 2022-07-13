@@ -1,6 +1,6 @@
 <?php
 
-namespace Bilfeldt\LaravelHttpClientLogger\Tests;
+namespace Padosoft\LaravelHttpClientLogger\Tests;
 
 class MacroTest extends TestCase
 {

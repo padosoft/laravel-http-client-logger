@@ -1,8 +1,8 @@
 <?php
 
-namespace Bilfeldt\LaravelHttpClientLogger\Tests;
+namespace Padosoft\LaravelHttpClientLogger\Tests;
 
-use Bilfeldt\LaravelHttpClientLogger\LaravelHttpClientLoggerServiceProvider;
+use Padosoft\LaravelHttpClientLogger\LaravelHttpClientLoggerServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
